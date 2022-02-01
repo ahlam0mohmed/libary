@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    background:rgba(58,79,98,.1);
+}
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+header ul{
+    list-style: none;
+    justify-content: space-around;
+}
+header ul li{
+    float: left;
+    border-right: 1px solid black;
+    padding:10px ;
+}
+header  #bor{
+    border-right: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+.sear{
+    width: 70%;
+    height: 40px;
+    background:rgba(58,79,98,.07);
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+
+#num{
+    color: red;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    position: relative;
+}
+#i{
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    position: absolute;
+}
+
+
+
+.srcimg{
+    display: none;
+}
+.imgs{
+    width: 90%;
+    padding: 5%;
+    align-items: center;
+}
+.bigimg{
+    width: 100%;
+}
+.bigimg img{
+    width: 90%;
+    height: 400px;
+    position: absolute;
+}
+.butn{
+    display: flex;
+    width: 99%;
+    height: 400px;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+}
+#but_left , #but_right{
+    font-size: 40px;
+    align-items: center;
+    color: rgb(129, 124, 124);
+    background-color: transparent;
+    border: none;
+    height: 6%;
+    margin-top: 47%;
+    margin-bottom: 47%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+
+.categ{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 5%;
+    
+}
+.d_left{
+    width: 75%;
+    margin-top: 50px;
+}
+#books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+}
+.info_book{
+    border: 1px solid rgb(129, 123, 123);
+    display: block;
+    justify-items: center;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 150px;
+    height: 320px;
+}
+.info_book img{
+    width: 85%;
+    height: 150px;
+}
+.info_book .add{
+    width: 35px;
+    height: 35px;
+}
+.info_book p{
+    height: 40px;
+}
+.info_book a{
+    text-decoration: none;
+}
+.info_book #sal{
+    color: red;
+}
+.info_book #sal span{
+    font-size: 10px;
+}
+.but_show{
+    width: 100%;
+    background-color: blue;
+}
+.but_show a{
+    color: white;
+    text-decoration: none;
+}
+.d_right{
+    width: 23%;
+    display: block;
+    text-align: right;
+}
+.d_right .ull{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.d_right .ull ul{
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+}
+.d_right .ull ul li{
+    float: left;
+    justify-content: space-between;
+    color: rgb(4, 212, 212);
+    margin-left: 5px;
+}
+.d_right ul li a{
+    text-decoration: none;
+    color: rgb(4, 212, 212);
+    font-weight: bold;
+}
+.d_d_d{
+    border: 3px solid green;
+    padding-right: 10px;
+    color: green;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 30px;
+    
+}
+.d_d_d h3{
+    align-items: center;
+}
+.d_green{
+    background-color: darkgreen;
+    margin-bottom: 0px;
+    color: white;
+    height: 35px;
+    align-items: center;
+    
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.d_green h4{
+    align-items: center;
+    padding: 10px;
+}
+.las_d{
+    background-color: rgb(200, 229, 233);
+    border: 1px solid rgb(155, 207, 214);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.las_d label{
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.lo_d{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    
+    border: 1px solid rgb(166, 211, 218);
+    
+}
+.lo_d .lin{
+    display: flex;
+    align-items: center;
+}
+.lo_d .lin .lq{
+    height: 13px;
+    width: 10px;
+    border: 2px solid black;
+    background-color: red;
+}
+.lo_d .lin #ll{
+    width: 200px;
+    height: 8px;
+    background-color: rgb(73, 67, 67);
+}
+.lo_d .rs{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+
+
+
+
+
+
+/* footer*/
+.fot-main{
+    background-color: rgb(20, 17, 17);
+    color: rgb(97, 90, 90);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+}
+.fot-main a{
+    color: rgb(59, 54, 54);
+
+}
+.fot-main .df{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.fot-main .df .fom{
+    background-color: rgb(82, 71, 71);
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.fom #te{
+    display: block;
+}
+.fot-main  ul{
+    list-style: none;
+}
+.df ul li{
+    margin-bottom: 15px;
+}
+footer h4{
+    border-bottom: 1px solid rgb(73, 67, 67);
+    display: block;
+    text-align: center;
+}
+.df .do ul{
+    list-style: none;
+}
+.df .do .ic {
+    list-style: none;
+}
+.df .do .ic  li{
+    float: left;
+    margin: 2px;
+}
+.do ul li img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.fot-last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px ;
+}
+.dot-last .db{
+    display: flex;
+}
+.fot-last .db ul{
+    list-style: none;
+}
+.fot-last .db ul li{
+    float: right;
+    margin: 2px;
+}
+.fot-last .db .ab{
+    border-left: 1px solid black;
+}

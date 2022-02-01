@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ctstyle.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#"> المملكة العربية السعودية</a></li>
+            <li><a href="#">فروعنا</a></li>
+            <li><a href="#"> المساعدة</a></li>
+            <li><a href="#">طلبيات الصيانة</a></li>
+            <li><a href="#">تتبع الشحنة</a></li>
+            <li><a href="#">المفضلة</a></li>
+            <li id="bor"><a href="login.html">أدخل لحسابك أو سجل دخول</a></li>
+
+        </ul>
+    </header>
+
+
+
+
+    <nav>
+
+        <a href="cc.html"><img id="i" src="img/shop.PNG"> <span id="num"></span></a>
+        <input class="sear" type="search"><span>
+        <a href="#"><img src="img/logoo.PNG"></a>
+
+    </nav>
+
+    <div class="imgs">
+        <div class="srcimg">
+            <img class="modimg" src="img/bags.webp">
+            <img class="modimg" src="img/bag2.jpg">
+            <img class="modimg" src="img/hour.jpg">
+            <img class="modimg" src="img/mobile.jpg">
+            <img class="modimg" src="img/tv.webp">
+            <img class="modimg" src="img/chang.jpg">
+
+        </div>
+        <div class="bigimg">
+            <a href="#"><img id="imgb" src="img/cato.PNG" alt=""></a>
+            <div class="butn">
+                <button id="but_left"> < </button>
+                <button id="but_right"> > </button>
+            </div>
+        </div>
+    </div>
+    <div class="categ">
+        <div class="d_left">
+            
+                <input type="text" id="ser" onkeyup="search()" placeholder="الرجاء الإختيار" >
+            
+            <label>إبحث باسم الكتاب</label>
+            <div id="books">
+                <div class="info_book">
+                    <img src="img/bnen.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>ن النسوية (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/babab.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>أبابيل (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/bfn.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>فن اللامبالاه (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/bla.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>لأنك الله (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/btkh.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>تخاريف ساخرة (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/bshm.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>شمس المعارف (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/bms.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>مستقبل النسوية (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+                <div class="info_book">
+                    <img src="img/btomo.PNG">
+                    <h3>كتاب إلكتروني</h3>
+                    <p>غداًأجمل (كتاب إلكتروني)</p>
+                    <h3 id="sal">24 <span>ر.س</span></h3>
+                    <label>شامل الضريبة</label>
+                    <h4>صيغ أخرى: <a href="#">كتاب مطبوع</a> </h4>
+                    <img class="add" src="img/redshop.PNG">
+                </div>
+               
+            </div>
+            <button class="but_show"><a href="#">عرض المزيد</a></button>
+        </div>
+
+        <div class="d_right">
+            <div class="ull">
+                <ul>
+                    <li><a href="#">كتب إلكترونية</a></li>
+                    <li>/</li>
+                    <li><a href="#">كتب عربية</a></li>
+                    <li>/</li>
+                    <li><a href="#">الرئيسية</a></li>
+        
+                </ul>
+            </div>
+            <div class="d_d_d">
+                <h3>كتب إلكترونية</h3>
+            </div>
+
+            <div class="d_green">
+                <h4>تصفية النتائج</h4>
+            </div>
+
+            <div class="las_d">
+                <label>-</label>
+                <h4>علامة تجارية</h4>
+            </div>
+
+            <div class="las_d">
+                <label>-</label>
+                <h4>السعر </h4>
+            </div>
+
+            <div class="lo_d">
+                <div class="lin">
+                    <div class="lq"></div>
+                    <div id="ll"></div>
+                    <div class="lq"></div>
+                </div>
+                <div class="rs">
+                    <label>150.رس</label>
+                    <label>0.رس</label>
+                </div>
+
+            </div>
+
+            <div class="las_d">
+                <label>-</label>
+                <h4>صيغة الكتاب</h4>
+            </div>
+        
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <footer>
+        <div class="fot-main">
+            
+                
+              
+            <div class="df">
+                <div class="do">
+                    <h4><a href="#">عن جرير</a></h4>
+                    <ul>
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">الحوكمة</a></li>
+                        <li><a href="#">علاقات المستثمرين والعلاقات</a></li>
+                        <li><a href="#">الاستدامة</a></li>
+                        <li><a href="#"> الاخبار</a></li>
+                    </ul>
+                    <h4><a href="#">فرص العمل</a></h4>
+                </div>
+            </div>
+
+
+            <div class="df">
+                <div class="do">
+                    <h4><a href="#">روابط سريعة</a></h4>
+                    <ul>
+                        <li><a href="#">اصدارات جرير</a></li>
+                        <li><a href="#">قارئ جرير</a></li>
+                        <li><a href="#">شركات برامج المكافئات</a></li>
+                        <li><a href="#">خدمات شركات الأتصالات</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="df">
+                <div class="do">
+                    <h4><a href="#">خدمات جرير</a></h4>
+                    <ul>
+                        <li><a href="#">تذاكر جرير</a></li>
+                        <li><a href="#">خدمات تقسيط المشتريات</a></li>
+                        <li><a href="#">خدمات ما بعد البيع</a></li>
+                        <li><a href="#">خدمة الحماية الشاملة</a></li>
+                        <li><a href="#">خدمة تمديد الضمان</a></li>
+                        <li><a href="#">حماية أجهزة آبل </a></li>
+                        <li><a href="#"> بطاقة خصم جرير </a></li>
+                        <li><a href="#">بطاقة جرير للهدايا</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="df">
+                <div class="do">
+                <h4>خدمة العملاء</h4>
+                <ul >
+                    <li><a href="#">مبيعات الشركات</a></li>
+                    <li><a href="#">الأسئلة المتكررة</a></li>
+                    <li><a href="#"> دليل التسوق والمطبوعات</a></li>
+                    <li><a href="#">مواقع المعارض</a></li>
+                    <li><a href="#">سياسة الضمان</a></li>
+                    <li><a href="#">سياسة الاسترجاع والاستبدال</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                    <li><a href="#">321456987</a></li>
+    
+                </ul>
+                </div>
+            </div>
+    
+            <div class="df">
+                <div class="do">
+                    <h4>انضم إلى نشرتنا البريدية</h4>
+                        <form class="fom">
+                            <input id="te" type="text" placeholder="ادخل بريدك الالكتروني">
+                            <input type="submit" value="اشتراك">
+                        </form>
+                    <h4> <a href="#" >تواصل معنا  </a></h4>
+                    <ul class="ic">
+                        <li><a href="#"><img src="img/i1.PNG"></a></li>
+                        <li><a href="#"><img src="img/i2.PNG"></a></li>
+                        <li><a href="#"><img src="img/i3.PNG"></a></li>
+                        <li><a href="#"><img src="img/i4.PNG"></a></li>
+                        <li><a href="#"><img src="img/i5.PNG"></a></li>
+                        <li><a href="#"><img src="img/i6.PNG"></a></li>
+                        <li><a href="#"><img src="img/i7.PNG"></a></li>
+                    </ul>
+                </div>  
+            </div>
+
+
+        
+    </div>
+        <div class="fot-last">
+            <div class="db">
+               <p> <a class="ab" href="#">شروط الخدمة</a>
+                <a href="#"> سياسة الخصوصية</a></p>
+                <p>جميع الحقوق محفوظة لمكتبة جرير © 2015. س.ت. 1010032264. اونلاين س.ت. 101065421</p>
+            </div>
+            <div class="db">
+                <ul>
+                    <li><img src="img/m1.PNG"></li>
+                    <li><img src="img/m2.PNG"></li>
+                    <li><img src="img/m3.PNG"></li>
+                    <li><img src="img/m4.PNG"></li>
+                    <li><img src="img/m5.PNG"></li>
+                    <li><img src="img/m6.PNG"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

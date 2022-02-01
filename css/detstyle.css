@@ -1,0 +1,80 @@
+
+.tul{
+    margin-right: 50px;
+}
+.tul ul{
+    list-style: none;
+}
+.tul ul li{
+    float: right;
+}
+.det{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.det .detleft{
+    width: 33%;
+}
+.det .detleft .deleftup{
+    border: 1px solid grey;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+.deleftup .d_l_u1{
+    background-color: pink;
+    border-right: 3px solid orangered;
+    margin-bottom: 10px;
+    padding-right: 2px;
+    text-align: right;
+}
+.deleftup .d_l_u2{
+    margin-bottom: 10px;
+}
+.deleftup .d_l_u2 button{
+    background-color: red;
+    width: 80%;
+    font-weight: bold;
+}
+.deleftup .d_l_u2 input{
+    width: 16%;
+}
+.deleftup .d_l_u3{
+    background-color: rgba(0, 0, 0, .05);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+   padding-right: 10px;
+
+}
+.deleftup .d_l_u3 label{
+    width: 45%;
+    font-size: 18px;
+    text-align: right;
+}
+.deleftup .d_l_u4{
+    border-top: 1px solid rgb(29, 28, 28);
+    justify-content: space-between;
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.deleftup .d_l_u4 button{
+    border-color: grey;
+    text-align: center;
+
+    padding: 3px;
+    width: 25%;
+    margin-left: 3%;
+
+}
+.det .detleft .deleftdown{
+    border: 1px solid grey;
+    border-top: none;
+}
